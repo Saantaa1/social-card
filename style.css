@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    font-family: Inter;
+}
+
+div{
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+}
+img{
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+}
+p{
+    color: white;
+    font-size: 21px;
+    padding-top: 15px;
+}
+h3{
+    color: rgb(211, 211, 211);
+    padding: 10px 6px;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    background-color: #333333;
+    margin: 6px;
+    width: 100%;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 13px;
+    
+}
+h3:hover {
+    border-bottom: 1px white solid;
+    background-color: #C4F82A;
+    color: black;
+    
+}
+.link {
+    height: 100vh;  /*  view eight - document boyi olchami */
+}
+.Santa {
+    background-color: #1F1F1F ;
+    padding: 25px 35px;
+    border-radius: 8px;
+    width: 250px;
+}
+h5{
+    color: #add330;
+    font-size: 11px;
+    padding: 6px;
+}
+h4{
+    color: white;
+    font-size: 11px;
+    padding: 13px 0px;
+}
+@media screen and (max-width: 360px) {
+    .Santa {
+        width: 200px;
+
+    }
+}
